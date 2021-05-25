@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD0B4E85">
+
+    <ImageView
+        android:id="@+id/facebook_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook_new_1" />
+
+    <EditText
+        android:id="@+id/editText_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="484dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Mobile Number"
+        android:textColor="#C3C0C0" />
+
+    <EditText
+        android:id="@+id/editText_Password"
+        android:layout_width="732dp"
+        android:layout_height="82dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="402dp"
+        android:ems="10"
+        android:inputType="number|textPassword"
+        android:text="Password"
+        android:textColor="#C5BFBF" />
+
+    <Button
+        android:id="@+id/but_login"
+        android:layout_width="708dp"
+        android:layout_height="90dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="264dp"
+        android:text="Login"
+        app:backgroundTint="#CAC4C4" />
+
+    <ImageButton
+        android:id="@+id/facebook_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginRight="234dp"
+        android:layout_marginBottom="922dp"
+        app:srcCompat="@drawable/facebook_1" />
+
+    <TextView
+        android:id="@+id/textV_forgotPass"
+        android:layout_width="157dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginBottom="146dp"
+        android:text="Forgot Password"
+        android:textColor="#FDF3F3"
+        android:textColorHint="#F4EFEF" />
+
+    <TextView
+        android:id="@+id/textV_signin"
+        android:layout_width="180dp"
+        android:layout_height="41dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="117dp"
+        android:layout_marginBottom="83dp"
+        android:text="Don't have account? Sign in"
+        android:textColor="#DAD4D4" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="635dp"
+        app:srcCompat="@drawable/facebook_1" />
+
+</RelativeLayout>
