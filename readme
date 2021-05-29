@@ -4,13 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FD0B4E85">
-
-    <ImageView
-        android:id="@+id/facebook_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/facebook_new_1" />
+    android:background="#135691">
 
     <EditText
         android:id="@+id/editText_mobile"
@@ -56,8 +50,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="234dp"
         android:layout_marginRight="234dp"
-        android:layout_marginBottom="922dp"
-        app:srcCompat="@drawable/facebook_1" />
+        android:layout_marginBottom="922dp" />
 
     <TextView
         android:id="@+id/textV_forgotPass"
@@ -87,15 +80,9 @@
         android:textColor="#DAD4D4" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginEnd="74dp"
-        android:layout_marginRight="74dp"
-        android:layout_marginBottom="635dp"
-        app:srcCompat="@drawable/facebook_1" />
+        android:id="@+id/facebooklogo"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        app:srcCompat="@drawable/fb" />
 
 </RelativeLayout>
